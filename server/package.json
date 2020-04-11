@@ -1,0 +1,23 @@
+{
+  "name": "grpc-server",
+  "version": "0.0.1",
+  "description": "Node, gRPC, and Postgres CRUD example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "migrate:make": "./node_modules/.bin/knex migrate:make",
+    "migrate:latest": "./node_modules/.bin/knex migrate:latest",
+    "seed:run": "./node_modules/.bin/knex seed:run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Rogério",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.4",
+    "dotenv": "^8.2.0",
+    "google-protobuf": "^3.11.4",
+    "grpc": "^1.24.2",
+    "knex": "^0.20.13",
+    "pg": "^8.0.2"
+  }
+}
