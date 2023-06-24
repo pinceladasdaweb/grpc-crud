@@ -16,7 +16,7 @@
     "@grpc/proto-loader": "^0.5.5",
     "dotenv": "^8.2.0",
     "google-protobuf": "^3.14.0",
-    "grpc": "^1.24.4",
+    "grpc": "^1.24.11",
     "knex": "^2.4.0",
     "pg": "^8.5.1"
   }
